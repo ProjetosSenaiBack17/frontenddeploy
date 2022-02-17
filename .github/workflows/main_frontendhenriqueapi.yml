@@ -53,4 +53,4 @@ jobs:
           app-name: 'frontendhenriqueapi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C68F605521BA497FB0E22CB7C6E62668 }}
-          package: .
+          package: 'build'
